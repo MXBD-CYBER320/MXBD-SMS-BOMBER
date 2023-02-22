@@ -18,10 +18,6 @@ logo = """
 │[✔] TOOLS      :       BD SMS BOOMBER        │   
 └─────────────────────────────────────────────┘
 """
-for i in logo:
-  sys.stdout.write(i)
-  sys.stdout.flush()
-  time.sleep(0.001)
 def sms_bombing():
     os.system('clear')
     os.system('xdg-open https://www.facebook.com/groups/1354738058401296/?ref=share&mibextid=NSMWBT')
