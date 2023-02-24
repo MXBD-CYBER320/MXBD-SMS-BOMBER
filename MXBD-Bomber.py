@@ -18,6 +18,10 @@ logo = """
 │[✔] TOOLS      :       BD SMS BOOMBER        │   
 └─────────────────────────────────────────────┘
 """
+for i in logo:
+  sys.stdout.write(i)
+  sys.stdout.flush()
+  time.sleep(0.005)
 def sms_bombing():
     os.system('clear')
     os.system('xdg-open https://www.facebook.com/groups/1354738058401296/?ref=share&mibextid=NSMWBT')
@@ -52,7 +56,7 @@ def sms_bombing():
         sms_limit = str(sms+1)
         print ""
         print "\033[1;31m--------------------------"
-        print (str(sms_limit)+" SMS SEND SUCCESFUL")
+        print (str(sms_limit)+" SMS SEND SUCCESFUL THANKS FOR USE MY TOOLS")
         print "\033[1;31m--------------------------"
         if sms_limit == limit:
            os.system('xdg-open https://www.facebook.com/MXBD.Cyber.320?mibextid=ZbWKwL')
@@ -68,7 +72,6 @@ def intro():
     if user_choise == "1":
        sms_bombing()
     elif user_choise == "2":
-         os.system('xdg-open https://www.facebook.com/groups/1354738058401296/?ref=share&mibextid=NSMWBT')
          os.system('xdg-open https://www.facebook.com/MXBD.Cyber.320?mibextid=ZbWKwL')
     elif user_choise == "3":
          os.system('clear')
