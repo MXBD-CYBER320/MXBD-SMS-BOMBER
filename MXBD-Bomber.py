@@ -58,7 +58,7 @@ def sms_bombing():
         sms_limit = str(sms+1)
         print ""
         print "\033[1;31m--------------------------"
-        print (str(sms_limit)+" SMS SEND SUCCESFUL THANKS FOR USE MY TOOLS")
+        print (str(sms_limit)+" SMS SEND SUCCESFUL")
         print "\033[1;31m--------------------------"
         if sms_limit == limit:
            os.system('xdg-open https://www.facebook.com/MXBD.Cyber.320?mibextid=ZbWKwL')
