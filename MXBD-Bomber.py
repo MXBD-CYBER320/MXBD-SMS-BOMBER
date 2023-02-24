@@ -1,8 +1,8 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
 import requests,os,sys,time
-os.system('xdg-open https://www.facebook.com/MXBD.Cyber.320?mibextid=ZbWKwL')
 os.system('clear')
+os.system('xdg-open https://www.facebook.com/MXBD.Cyber.320?mibextid=ZbWKwL')
 logo = """
 
 \033[1;31m███╗   ███╗██╗  ██╗██████╗ ██████╗ 
